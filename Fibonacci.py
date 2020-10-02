@@ -1,11 +1,13 @@
-df fibonacci(n):
+def fibonacci(n):
     if n == 1:
         return 0
 
     elif n ==2:
-        et
+        return 1
+
     else:
-        reurn ibonacc(n-1) + fibonacc-2) 
+        return fibonacci(n-1) + fibonacci(n-2) 
 
 
-
+number = int(input("Enter you number\n"))
+print(fibonacci(number))
